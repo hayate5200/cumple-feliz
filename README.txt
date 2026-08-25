@@ -3,6 +3,7 @@ CUMPLE FELIZ — VERSIÓN MEJORADA
 Tarjeta de cumpleaños interactiva optimizada para computadora y celular,
 incluidos iPhone con zona segura y Safari móvil.
 
+
 CARACTERÍSTICAS
 - Pantalla inicial renovada con partículas y animaciones suaves.
 - Sorpresa táctil con mensaje, destellos decorativos y música.
