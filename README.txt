@@ -1,32 +1,20 @@
-CUMPLE FELIZ - PROYECTO UNIFICADO
+CUMPLE FELIZ — VERSIÓN MEJORADA
 
-Este proyecto junta las 2 vistas en un solo sitio, como el enlace original.
+Tarjeta de cumpleaños interactiva optimizada para computadora y celular,
+incluidos iPhone con zona segura y Safari móvil.
 
-VISTA 1
-- Fondo rosado con partículas.
-- GIF superior.
-- GIF principal.
-- Al hacer clic en el GIF principal se abre la segunda vista.
+CARACTERÍSTICAS
+- Pantalla inicial renovada con partículas y animaciones suaves.
+- Sorpresa táctil con mensaje, destellos decorativos y música.
+- Botón para pausar o reanudar la canción.
+- Diseño adaptable, desplazamiento en pantallas pequeñas y controles de 44 px.
+- Navegación por teclado y compatibilidad con reducir movimiento.
 
-VISTA 2
-- Modal con imagen de fondo.
-- Mensaje de cumpleaños.
-- Música.
-- Botón X para cerrar.
-- También se puede cerrar con Escape o haciendo clic en el fondo oscuro.
+CONTENIDO CONSERVADO
+El mensaje, la canción, los GIF y la imagen de fondo son los mismos del proyecto
+original. Los recursos continúan alojados en Internet, por lo que se requiere
+conexión para cargarlos.
 
-ARCHIVOS
-- index.html
-- css/styles.css
-- js/app.js
-- assets/  (preparada para recursos locales)
-
-NOTA
-Los GIF, la imagen y la canción siguen usando las mismas URLs externas del código
-original, así que se necesita Internet para cargarlos.
-
-PARA ABRIRLO
-1. Descomprime el ZIP.
-2. Abre la carpeta en Visual Studio Code.
-3. Abre index.html.
-4. Usa Live Server o ábrelo directamente en el navegador.
+USO
+Descomprime el ZIP y abre index.html en un navegador. También puedes publicarlo
+en GitHub Pages sin proceso de compilación.
