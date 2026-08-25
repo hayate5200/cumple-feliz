@@ -1,0 +1,55 @@
+<html lang="es"><head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="color-scheme" content="light">
+		<title>Cumple feliz</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<!-- VISTA 1: pantalla principal; clic en el GIF para abrir la VISTA 2. -->
+		<canvas id="stars" aria-hidden="true" width="1002" height="826" style="width: 668px; height: 551px;"></canvas>
+
+		<div class="top-gif" aria-hidden="true">
+			<img src="https://i.pinimg.com/originals/d1/76/4a/d1764aba330385413cbef4855f91dd63.gif" alt="" loading="lazy" decoding="async">
+		</div>
+
+		<main class="wrap">
+			<section class="card">
+				<div class="gif">
+					<img id="mainGift" src="https://i.pinimg.com/originals/32/86/22/32862299f971a476048df2b5ffbdbd15.gif" alt="GIF de feliz cumpleaños" loading="lazy" decoding="async" tabindex="0" role="button" aria-label="Abrir fondo especial">
+				</div>
+			</section>
+		</main>
+
+		<!-- VISTA 2: modal con mensaje y música. -->
+		<div id="giftModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+			<div class="modal__backdrop" data-close="true"></div>
+			<div class="modal__panel" aria-label="Fondo especial">
+				<button class="modal__close" type="button" aria-label="Cerrar" data-close="true">×</button>
+				<div class="modal__content">
+					<div class="modal__textwrap">
+						<h2 class="modal__title">Feliz cumpleaños, mi amor</h2>
+						<p class="modal__text">
+							Hoy celebro tu vida y todo lo bonito que eres. Gracias por existir, por tu sonrisa
+							y por la calma que me das.
+						</p>
+						<p class="modal__text">
+							Deseo que este nuevo año te abrace con cosas bonitas: salud, paz, metas cumplidas y
+							momentos que se queden para siempre en tu corazón.
+						</p>
+						<p class="modal__text">
+							Nunca olvides lo valiosa que eres, lo mucho que inspiras y lo increíble que es
+							caminar contigo. Te amo con todo mi corazón.
+						</p>
+						<div class="modal__sign">Con amor, para ti.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<audio id="birthdaySong" src="https://github.com/Baque2005/Organizador/raw/refs/heads/master/As%20The%20World%20Caves%20In%20-%20Matt%20Maltese%20(Cover%20by%20Sarah%20Cothran).mp3" preload="auto"></audio>
+
+		<script src="js/app.js"></script>
+	
+
+</body></html>
