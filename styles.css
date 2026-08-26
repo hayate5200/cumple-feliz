@@ -77,6 +77,8 @@ h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp
 .ornament i { width: 7px; height: 7px; background: currentColor; transform: rotate(45deg); }
 .modal__text { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1rem, 3.8vw, 1.2rem); line-height: 1.65; }
 .modal__text + .modal__text { margin-top: 12px; }
+.birthday-feature { width: min(360px, 100%); margin: 22px auto 0; }
+.birthday-feature img { display: block; width: 100%; height: auto; max-height: 300px; border-radius: 16px; object-fit: cover; box-shadow: 0 12px 34px rgba(69,35,50,.2); }
 .modal__sign { margin-top: 20px; color: var(--rose-700); font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; font-style: italic; font-weight: 700; }
 .icon-button, .music-toggle { min-width: 44px; min-height: 44px; border: 0; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
 .modal__close { position: sticky; top: 10px; z-index: 4; float: right; display: grid; place-items: center; margin: 10px 10px -54px auto; border-radius: 50%; color: var(--ink); background: rgba(255,255,255,.9); box-shadow: 0 8px 22px rgba(69,35,50,.18); font-size: 1.7rem; line-height: 1; }
@@ -100,6 +102,7 @@ h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp
   .modal__content { align-items: start; padding: 52px 10px max(14px, env(safe-area-inset-bottom)); }
   .letter { border-radius: 17px; padding: 24px 17px; }
   .modal__text { line-height: 1.55; }
+  .birthday-feature { margin-top: 18px; }
 }
 @media (max-height: 700px) and (orientation: landscape) {
   .welcome { padding-block: 12px; }
