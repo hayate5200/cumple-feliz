@@ -62,7 +62,7 @@ h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp
 .gift-trigger:hover img, .gift-trigger:focus-visible img { transform: translateY(-5px) scale(1.025); }
 .gift-trigger:active img { transform: scale(.97); }
 .gift-glow { position: absolute; inset: 23% 15% 18%; border-radius: 50%; background: rgba(255,255,255,.82); filter: blur(30px); animation: glow 2.2s ease-in-out infinite; }
-.tap-label { position: relative; z-index: 2; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; margin-top: -14px; padding: 10px 22px; border: 1px solid rgba(146,54,83,.15); border-radius: 999px; background: rgba(255,255,255,.8); box-shadow: 0 8px 26px rgba(91,30,55,.12); font-weight: 750; }
+.tap-label { position: relative; z-index: 2; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; margin-top: 14px; padding: 10px 22px; border: 1px solid rgba(146,54,83,.15); border-radius: 999px; background: rgba(255,255,255,.8); box-shadow: 0 8px 26px rgba(91,30,55,.12); font-weight: 750; }
 .modal { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; visibility: hidden; padding: max(14px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) max(14px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left)); opacity: 0; transition: opacity .35s ease, visibility 0s linear .35s; }
 .modal[aria-hidden="false"] { visibility: visible; opacity: 1; transition-delay: 0s; }
 .modal__backdrop { position: absolute; inset: 0; background: rgba(49,18,31,.56); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); }
@@ -77,6 +77,8 @@ h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp
 .ornament i { width: 7px; height: 7px; background: currentColor; transform: rotate(45deg); }
 .modal__text { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1rem, 3.8vw, 1.2rem); line-height: 1.65; }
 .modal__text + .modal__text { margin-top: 12px; }
+.birthday-feature { width: min(300px, 100%); margin: 22px auto 0; }
+.birthday-feature img { display: block; width: 100%; height: auto; max-height: none; border-radius: 16px; object-fit: contain; box-shadow: 0 12px 34px rgba(69,35,50,.2); }
 .modal__sign { margin-top: 20px; color: var(--rose-700); font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; font-style: italic; font-weight: 700; }
 .icon-button, .music-toggle { min-width: 44px; min-height: 44px; border: 0; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
 .modal__close { position: sticky; top: 10px; z-index: 4; float: right; display: grid; place-items: center; margin: 10px 10px -54px auto; border-radius: 50%; color: var(--ink); background: rgba(255,255,255,.9); box-shadow: 0 8px 22px rgba(69,35,50,.18); font-size: 1.7rem; line-height: 1; }
@@ -100,6 +102,7 @@ h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp
   .modal__content { align-items: start; padding: 52px 10px max(14px, env(safe-area-inset-bottom)); }
   .letter { border-radius: 17px; padding: 24px 17px; }
   .modal__text { line-height: 1.55; }
+  .birthday-feature { margin-top: 18px; }
 }
 @media (max-height: 700px) and (orientation: landscape) {
   .welcome { padding-block: 12px; }
